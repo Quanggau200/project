@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+}
+.space
+{
+    height: 2px;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 0.5px solid rgb(207, 183, 183);
+  
+}
+.form-controls
+{
+    position: relative;
+    border: 1px solid black;
+    border: none;
+    background-color: rgb(228, 219, 207);
+    height: 36px;
+    width: 340px;
+    border-radius: 40px;
+    line-height:  36px;
+    outline: none;
+    input
+    {
+       border: none;
+       padding: 1px 45px 0 15px;
+       line-height: 16px;
+       background-color: rgb(228, 219, 207);
+       outline: none;
+       border-radius: 40px;
+      
+       
+    }
+    button
+    {
+        position: absolute;
+        right: 10px;
+        align-items: center;
+        border: none;
+        background-color: rgb(228, 219, 207); 
+        border-radius: 40px;
+       
+    }
+    i
+    {
+        color:rgb(241, 236, 236) ;
+    }
+      
+
+}
+    .document
+    {
+      
+        background-color: #f7941d;
+        a
+        {
+            text-decoration: none;
+            color: white; 
+        }
+        a:hover{
+            color: white;
+            background-color: #f7941d;
+            border-radius: 16px;
+        }
+        
+    }
+.nav
+{
+        background-color: #f7941d;
+
+    .nav-link
+    {
+        color: white;
+    }
+    a:hover{
+        background-color: rgb(139, 124, 124);
+        color: white;
+    }
+}
+.row
+{
+    h3{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    ul
+    {
+        list-style-type: none;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+        
+        
+    }
+
+}
+.btn-next,.btn-previous
+{
+    background-color: #4caf50;
+}
+.row li
+{
+    list-style-type: none;
+}
+.container
+{
+    h6{
+        color: #222;
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: normal;
+    }
+    h2{
+        color: #222;
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: normal;
+    }
+    p{
+        color: #222;
+        font-size: 1.25em;
+        line-height: 28px;
+        font-weight: bold;
+    }.primary
+        
+       {
+        a{
+            color: #222;
+            font-size: 1.25rem;
+            line-height: 28px;
+            font-weight: bold;
+        }
+       }.book-primary
+       {
+        li{
+            padding: 0.1rem 0;
+        }
+        a{
+          
+            font-size: 1.2rem;
+            line-height: 28px;
+            color: green;
+         
+            
+        }
+       }.execrice-primary
+       {
+        a{
+           
+            font-size: 1.1rem;
+            line-height: 28px;
+            color: green;
+       }
+    }
+}
+.main-footer
+{
+   p{
+   
+    font-size: 1.1rem;
+    line-height: 28px;
+    color: green;
+   }
+   h6{
+    color: white;
+   }
+     .d-flex
+    {
+         a
+        {
+             color: white;
+        }
+    } .policy
+    {
+        a{
+            color: white;
+            font-size: 1.1rem;
+           
+        }
+        li{
+            padding:3px 0
+        }
+    } .contact
+    {
+      
+        li
+        {
+            color: white;
+        }
+        i{
+            color: #f7941d;
+            padding-right: 10px;
+        }
+    }
+   
+   
+   
+}
